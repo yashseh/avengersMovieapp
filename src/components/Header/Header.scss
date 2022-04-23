@@ -1,0 +1,36 @@
+@import "../../common/colors.scss";
+
+.header{
+    background-color:$secondary-color;
+    height:72px;
+    display:flex;
+    padding: 0px 40px;
+    justify-content:space-between;
+    align-items:center;
+
+}
+.logo{
+  color:$font-primary;   
+  font-size:20px;
+  font-weight: 600;
+}
+.user-image img{
+    width:38px;
+    cursor: pointer;
+    height:38px;
+}
+.search{
+  width:300px;
+}
+.searchBox{
+  width:100%;
+  padding:4px;
+  background-color:$primary-color;
+  border:none;
+  border-radius: 8px;
+    font-size: 18px;
+    color:$font-secondary;
+}
+input{
+  outline: none;
+}
